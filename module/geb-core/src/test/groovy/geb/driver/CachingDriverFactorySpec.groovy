@@ -48,7 +48,7 @@ class CachingDriverFactorySpec extends GebSpec {
     @Issue("https://github.com/apache/groovy-geb/issues/288")
     def "first driver should quit after clear cache and quit driver"() {
         given:
-        def firstDriver= browser.driver
+        def firstDriver = browser.driver
 
         when:
         CachingDriverFactory.clearCacheAndQuitDriver()

@@ -27,4 +27,5 @@ publishing.publications.main.pom {
 
 dependencies {
     groovy "org.apache.groovy:groovy-macro"
+    testImplementation project(':module:geb-spock')
 }
